@@ -1,16 +1,15 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**divyanshtri/divyanshtri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Divyansh 👋
 
-Here are some ideas to get you started:
+### Software Developer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
+
+<img src="./assets/profile-card.svg" width="100%" alt="Divyansh Mani Tripathi - Software Developer">
+
+<br>
+
+<img src="./assets/contrib-heatmap.svg" width="100%" alt="Divyansh's GitHub Contribution Activity">
+
+</div>

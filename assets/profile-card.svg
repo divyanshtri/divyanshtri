@@ -1,0 +1,963 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="100%"
+viewBox="0 0 1100 540"
+preserveAspectRatio="xMidYMid meet"
+>
+
+<style>
+
+
+/* ================================================
+   BACKGROUND
+================================================ */
+
+.background {
+    fill: #0d1117;
+}
+
+
+/* ================================================
+   TERMINAL TEXT
+================================================ */
+
+.terminal {
+    font-family: "Courier New", monospace;
+    font-size: 17px;
+    fill: #3fb950;
+}
+
+
+/* ================================================
+   ASCII PORTRAIT
+================================================ */
+
+.ascii-line {
+
+    font-family: "Courier New", monospace;
+
+    font-size: 8px;
+
+    fill: #f0f6fc;
+    
+    opacity: 0;
+
+    animation: asciiAppear 0.15s forwards;
+}
+
+
+@keyframes asciiAppear {
+
+    from {
+        opacity: 0;
+        transform: translateY(3px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* ================================================
+   NAME
+================================================ */
+
+.name {
+
+    font-family: "Courier New", monospace;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    fill: #58a6ff;
+
+    opacity: 0;
+
+    animation: fadeIn 0.6s forwards;
+
+    animation-delay: 0.45s;
+}
+
+
+/* ================================================
+   SEPARATOR
+================================================ */
+
+.separator {
+
+    stroke: #30363d;
+
+    stroke-width: 2;
+
+    stroke-dasharray: 430;
+
+    stroke-dashoffset: 430;
+
+    animation: drawLine 0.9s forwards;
+
+    animation-delay: 0.7s;
+}
+
+
+@keyframes drawLine {
+
+    to {
+        stroke-dashoffset: 0;
+    }
+
+}
+
+
+/* ================================================
+   PROFILE INFORMATION
+================================================ */
+
+.info-line {
+
+    font-family: "Courier New", monospace;
+
+    font-size: 16px;
+
+    opacity: 0;
+
+    animation: fadeIn 0.45s forwards;
+}
+
+
+.label {
+    fill: #8b949e;
+    font-weight: bold;
+}
+
+
+.value {
+    fill: #c9d1d9;
+}
+
+
+/* ================================================
+   CURSOR
+================================================ */
+
+.cursor {
+
+    fill: #3fb950;
+
+    animation: blink 1s steps(2, start) infinite;
+}
+
+
+@keyframes blink {
+
+    50% {
+        opacity: 0;
+    }
+
+}
+
+
+/* ================================================
+   GENERAL FADE
+================================================ */
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+
+.ascii-0 {
+    animation-delay: 0.000s;
+}
+
+
+
+.ascii-1 {
+    animation-delay: 0.022s;
+}
+
+
+
+.ascii-2 {
+    animation-delay: 0.044s;
+}
+
+
+
+.ascii-3 {
+    animation-delay: 0.066s;
+}
+
+
+
+.ascii-4 {
+    animation-delay: 0.088s;
+}
+
+
+
+.ascii-5 {
+    animation-delay: 0.110s;
+}
+
+
+
+.ascii-6 {
+    animation-delay: 0.132s;
+}
+
+
+
+.ascii-7 {
+    animation-delay: 0.154s;
+}
+
+
+
+.ascii-8 {
+    animation-delay: 0.176s;
+}
+
+
+
+.ascii-9 {
+    animation-delay: 0.198s;
+}
+
+
+
+.ascii-10 {
+    animation-delay: 0.220s;
+}
+
+
+
+.ascii-11 {
+    animation-delay: 0.242s;
+}
+
+
+
+.ascii-12 {
+    animation-delay: 0.264s;
+}
+
+
+
+.ascii-13 {
+    animation-delay: 0.286s;
+}
+
+
+
+.ascii-14 {
+    animation-delay: 0.308s;
+}
+
+
+
+.ascii-15 {
+    animation-delay: 0.330s;
+}
+
+
+
+.ascii-16 {
+    animation-delay: 0.352s;
+}
+
+
+
+.ascii-17 {
+    animation-delay: 0.374s;
+}
+
+
+
+.ascii-18 {
+    animation-delay: 0.396s;
+}
+
+
+
+.ascii-19 {
+    animation-delay: 0.418s;
+}
+
+
+
+.ascii-20 {
+    animation-delay: 0.440s;
+}
+
+
+
+.ascii-21 {
+    animation-delay: 0.462s;
+}
+
+
+
+.ascii-22 {
+    animation-delay: 0.484s;
+}
+
+
+
+.ascii-23 {
+    animation-delay: 0.506s;
+}
+
+
+
+.ascii-24 {
+    animation-delay: 0.528s;
+}
+
+
+
+.ascii-25 {
+    animation-delay: 0.550s;
+}
+
+
+
+.ascii-26 {
+    animation-delay: 0.572s;
+}
+
+
+
+.ascii-27 {
+    animation-delay: 0.594s;
+}
+
+
+
+.ascii-28 {
+    animation-delay: 0.616s;
+}
+
+
+
+.ascii-29 {
+    animation-delay: 0.638s;
+}
+
+
+
+.ascii-30 {
+    animation-delay: 0.660s;
+}
+
+
+
+.ascii-31 {
+    animation-delay: 0.682s;
+}
+
+
+
+.ascii-32 {
+    animation-delay: 0.704s;
+}
+
+
+
+.ascii-33 {
+    animation-delay: 0.726s;
+}
+
+
+
+.ascii-34 {
+    animation-delay: 0.748s;
+}
+
+
+
+.ascii-35 {
+    animation-delay: 0.770s;
+}
+
+
+
+.ascii-36 {
+    animation-delay: 0.792s;
+}
+
+
+
+.ascii-37 {
+    animation-delay: 0.814s;
+}
+
+
+
+.ascii-38 {
+    animation-delay: 0.836s;
+}
+
+
+
+.ascii-39 {
+    animation-delay: 0.858s;
+}
+
+
+
+.ascii-40 {
+    animation-delay: 0.880s;
+}
+
+
+
+.ascii-41 {
+    animation-delay: 0.902s;
+}
+
+
+
+.ascii-42 {
+    animation-delay: 0.924s;
+}
+
+
+
+.ascii-43 {
+    animation-delay: 0.946s;
+}
+
+
+
+.ascii-44 {
+    animation-delay: 0.968s;
+}
+
+
+
+.info-0 {
+    animation-delay: 0.95s;
+}
+
+
+
+.info-1 {
+    animation-delay: 1.07s;
+}
+
+
+
+.info-2 {
+    animation-delay: 1.19s;
+}
+
+
+
+.info-3 {
+    animation-delay: 1.31s;
+}
+
+
+
+.info-4 {
+    animation-delay: 1.43s;
+}
+
+
+
+.info-5 {
+    animation-delay: 1.55s;
+}
+
+
+
+.info-6 {
+    animation-delay: 1.67s;
+}
+
+
+
+</style>
+
+
+<!-- =============================================
+     BACKGROUND
+============================================= -->
+
+<rect
+class="background"
+width="100%"
+height="100%"
+rx="14"
+/>
+
+
+<!-- =============================================
+     TERMINAL COMMAND
+============================================= -->
+
+<text
+x="30"
+y="38"
+class="terminal"
+>
+divyansh@github:~$ whoami
+</text>
+
+
+<!-- =============================================
+     ASCII PORTRAIT
+============================================= -->
+
+
+<text
+    x="35"
+    y="90"
+    class="ascii-line ascii-0"
+    xml:space="preserve"
+></text>
+
+<text
+    x="35"
+    y="99"
+    class="ascii-line ascii-1"
+    xml:space="preserve"
+></text>
+
+<text
+    x="35"
+    y="108"
+    class="ascii-line ascii-2"
+    xml:space="preserve"
+></text>
+
+<text
+    x="35"
+    y="117"
+    class="ascii-line ascii-3"
+    xml:space="preserve"
+></text>
+
+<text
+    x="35"
+    y="126"
+    class="ascii-line ascii-4"
+    xml:space="preserve"
+>                              %%%%#%%@@@@@@@</text>
+
+<text
+    x="35"
+    y="135"
+    class="ascii-line ascii-5"
+    xml:space="preserve"
+>                           @%%%%###%%@@@@@@@@@@@</text>
+
+<text
+    x="35"
+    y="144"
+    class="ascii-line ascii-6"
+    xml:space="preserve"
+>                          @@@@@@%%@@@@%##%%@@@@@@</text>
+
+<text
+    x="35"
+    y="153"
+    class="ascii-line ascii-7"
+    xml:space="preserve"
+>                         @@@@@%#%%#=-::::==+#@@@@@@</text>
+
+<text
+    x="35"
+    y="162"
+    class="ascii-line ascii-8"
+    xml:space="preserve"
+>                        @@@@@@%%#=.   ...:-==#%%@@%@</text>
+
+<text
+    x="35"
+    y="171"
+    class="ascii-line ascii-9"
+    xml:space="preserve"
+>                        @@@@@@%*-.   ..:=+***#%@@@@@</text>
+
+<text
+    x="35"
+    y="180"
+    class="ascii-line ascii-10"
+    xml:space="preserve"
+>                        @@@@@@%#*+=-:=*#%%##%%%@@@@@</text>
+
+<text
+    x="35"
+    y="189"
+    class="ascii-line ascii-11"
+    xml:space="preserve"
+>                        @@@%%##*##**+=#**+***+*#@@@</text>
+
+<text
+    x="35"
+    y="198"
+    class="ascii-line ascii-12"
+    xml:space="preserve"
+>                        @@@%*==--::=: -+-::.:=+#@%%</text>
+
+<text
+    x="35"
+    y="207"
+    class="ascii-line ascii-13"
+    xml:space="preserve"
+>                         @%#+-:::===-=+***+==+*#%#%</text>
+
+<text
+    x="35"
+    y="216"
+    class="ascii-line ascii-14"
+    xml:space="preserve"
+>                          %++--+#*=+++*##**#==*#%#</text>
+
+<text
+    x="35"
+    y="225"
+    class="ascii-line ascii-15"
+    xml:space="preserve"
+>                           #---:+*#=::.:-+#+:=*#@</text>
+
+<text
+    x="35"
+    y="234"
+    class="ascii-line ascii-16"
+    xml:space="preserve"
+>                             *=-:::-----===-=*#%</text>
+
+<text
+    x="35"
+    y="243"
+    class="ascii-line ascii-17"
+    xml:space="preserve"
+>                               *=-:::::-::-=##%%</text>
+
+<text
+    x="35"
+    y="252"
+    class="ascii-line ascii-18"
+    xml:space="preserve"
+>                               *+++===--=+*#%%%#++</text>
+
+<text
+    x="35"
+    y="261"
+    class="ascii-line ascii-19"
+    xml:space="preserve"
+>                               *-=*******##%%%%#---=</text>
+
+<text
+    x="35"
+    y="270"
+    class="ascii-line ascii-20"
+    xml:space="preserve"
+>                            %%+..:-=++*###%%##%=:...*@%%</text>
+
+<text
+    x="35"
+    y="279"
+    class="ascii-line ascii-21"
+    xml:space="preserve"
+>                       ###%%%+. ::::-=+***####+.    =%%###%%%</text>
+
+<text
+    x="35"
+    y="288"
+    class="ascii-line ascii-22"
+    xml:space="preserve"
+>                   #######%#=.  :=:::-=++++**+.     -%############%%</text>
+
+<text
+    x="35"
+    y="297"
+    class="ascii-line ascii-23"
+    xml:space="preserve"
+>             #############+:     -::::--===+=.      .#################%%%%</text>
+
+<text
+    x="35"
+    y="306"
+    class="ascii-line ascii-24"
+    xml:space="preserve"
+>          %##############=::::-: .:...:....::=-::::--#####################%@</text>
+
+<text
+    x="35"
+    y="315"
+    class="ascii-line ascii-25"
+    xml:space="preserve"
+>         %###################%%#=:....... :=%@@%%%%%%%#%%################%@@@</text>
+
+<text
+    x="35"
+    y="324"
+    class="ascii-line ascii-26"
+    xml:space="preserve"
+>         #######################%#+-.... ..+%%%%######@%#####%##########%@@#%</text>
+
+<text
+    x="35"
+    y="333"
+    class="ascii-line ascii-27"
+    xml:space="preserve"
+>        ##########################:. ..:-::*%########@%####%%######%%%%%%@%#%</text>
+
+<text
+    x="35"
+    y="342"
+    class="ascii-line ascii-28"
+    xml:space="preserve"
+>        ##%%######################.  .... -#########%%###%%%######%%@%%%%%%%%</text>
+
+<text
+    x="35"
+    y="351"
+    class="ascii-line ascii-29"
+    xml:space="preserve"
+>       %#%%%######################-      .*########%%##%%%%%#####%%@@%@@@@@@%%</text>
+
+<text
+    x="35"
+    y="360"
+    class="ascii-line ascii-30"
+    xml:space="preserve"
+>       %#%%%%%####################*.     =########%###%%%%%######%@@%@@@%%%%@@@</text>
+
+<text
+    x="35"
+    y="369"
+    class="ascii-line ascii-31"
+    xml:space="preserve"
+>      %%%%%%%%%####################.    :########%%##%%%%%######%@@%@@@%%%%@@%%%</text>
+
+<text
+    x="35"
+    y="378"
+    class="ascii-line ascii-32"
+    xml:space="preserve"
+>      %%%%%%%%%%##################%-   .*#######%###%%%%%######%%@@%%%%%%%%%%%#+</text>
+
+<text
+    x="35"
+    y="387"
+    class="ascii-line ascii-33"
+    xml:space="preserve"
+>     %##%%%%%%%%%#################%*.  =#######%###%%%%%######%%@@@%%%#####%%@%:</text>
+
+<text
+    x="35"
+    y="396"
+    class="ascii-line ascii-34"
+    xml:space="preserve"
+>      #####%%%%%%%#######%%%%#######: :######%%###%%%%%#####%%%@@@%%%%##%%@@@@%#</text>
+
+<text
+    x="35"
+    y="405"
+    class="ascii-line ascii-35"
+    xml:space="preserve"
+>     %#%%%%%%%%@%%%%%###%%%%%%####%%= +#####%%###%%%%%%%%%%%%%@@@@%%%%%%@@@%%%%%</text>
+
+<text
+    x="35"
+    y="414"
+    class="ascii-line ascii-36"
+    xml:space="preserve"
+>     %%%%%%%%%@@@%%%%%##%%%%%%%%##%%*-#####@%####%%###%%%%%%%@@@@@%%%%%%%%%##%%@</text>
+
+<text
+    x="35"
+    y="423"
+    class="ascii-line ascii-37"
+    xml:space="preserve"
+>    ######%%%%@@@@@%%%%##%%%%%%%%#%%%####%@%%#########%%%%%%%%@@@@%%%%%%%%%%%%@@</text>
+
+<text
+    x="35"
+    y="432"
+    class="ascii-line ascii-38"
+    xml:space="preserve"
+>    ###%%@@@%@@@@@@%%%%%###%%%%%%%%%####@@%##########%%%@%%%%%@@@@%%%%%%%%%%%%%%</text>
+
+<text
+    x="35"
+    y="441"
+    class="ascii-line ascii-39"
+    xml:space="preserve"
+>    ##%%%%%@@@@@@@@%%#%%%%###%%%%%%%##%@@%#########%%%%##%%%%@@@@@%%%%%%%%%%%%%%</text>
+
+<text
+    x="35"
+    y="450"
+    class="ascii-line ascii-40"
+    xml:space="preserve"
+>   %%@@%%%%%%@@@@@@%%%@@%%%###%%%%%#%@@%%%########%%%%%##%%%@@@@@@%%%%#####%%%@@</text>
+
+<text
+    x="35"
+    y="459"
+    class="ascii-line ascii-41"
+    xml:space="preserve"
+>   @%%%%%%@@%%%@@@@%%%%%%@%%%##%%%%@@@%#########%%%%%%%%%%%%%@@@@@%%%%#%%%%%%%%#</text>
+
+<text
+    x="35"
+    y="468"
+    class="ascii-line ascii-42"
+    xml:space="preserve"
+>  %%%%%@@@@@@@@@@@@%%%%%%%%%%%%#%%@@%%#######%%%%%%%%%%%%%%%%@@@%@%%%%%%@@@@@@%%</text>
+
+<text
+    x="35"
+    y="477"
+    class="ascii-line ascii-43"
+    xml:space="preserve"
+>  @%%%%@@%@@@@@@@@%#%%%%%%%%%%%%%##%%%####**%%##%%%%%#%%%%%@@@@%%@@@@@@%%%%%%%%%</text>
+
+<text
+    x="35"
+    y="486"
+    class="ascii-line ascii-44"
+    xml:space="preserve"
+>  %#%%%%%%%%@@@@@%###%%%%#%%#####%#%%#######%####%####%%%%@@@@%%%@@@%%@@%%%%#%%%</text>
+
+
+
+<!-- =============================================
+     NAME
+============================================= -->
+
+<text
+x="590"
+y="120"
+class="name"
+>
+Divyansh Mani Tripathi
+</text>
+
+
+<!-- =============================================
+     SEPARATOR
+============================================= -->
+
+<line
+x1="590"
+y1="140"
+x2="1040"
+y2="140"
+class="separator"
+/>
+
+
+<!-- =============================================
+     PROFILE INFORMATION
+============================================= -->
+
+
+<text
+    x="590"
+    y="175"
+    class="info-line info-0"
+>
+    <tspan class="label">Role</tspan>
+    <tspan dx="18" class="value">Software Developer</tspan>
+</text>
+
+<text
+    x="590"
+    y="214"
+    class="info-line info-1"
+>
+    <tspan class="label">Stack</tspan>
+    <tspan dx="18" class="value">React • Express.js • Node.js • MongoDB</tspan>
+</text>
+
+<text
+    x="590"
+    y="253"
+    class="info-line info-2"
+>
+    <tspan class="label">Languages</tspan>
+    <tspan dx="18" class="value">JavaScript • Python</tspan>
+</text>
+
+<text
+    x="590"
+    y="292"
+    class="info-line info-3"
+>
+    <tspan class="label">Focus</tspan>
+    <tspan dx="18" class="value">Full-Stack Development • DSA</tspan>
+</text>
+
+<text
+    x="590"
+    y="331"
+    class="info-line info-4"
+>
+    <tspan class="label">Education</tspan>
+    <tspan dx="18" class="value">CS @ University of Delhi</tspan>
+</text>
+
+<text
+    x="590"
+    y="370"
+    class="info-line info-5"
+>
+    <tspan class="label">Location</tspan>
+    <tspan dx="18" class="value">New Delhi</tspan>
+</text>
+
+<text
+    x="590"
+    y="409"
+    class="info-line info-6"
+>
+    <tspan class="label">GitHub</tspan>
+    <tspan dx="18" class="value">@divyanshtri</tspan>
+</text>
+
+
+
+<!-- =============================================
+     TERMINAL PROMPT
+============================================= -->
+
+<text
+x="590"
+y="480"
+class="terminal"
+>
+divyansh@github:~$
+</text>
+
+
+<rect
+x="798"
+y="464"
+width="10"
+height="18"
+class="cursor"
+/>
+
+
+</svg>

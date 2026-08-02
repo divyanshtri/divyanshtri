@@ -1,0 +1,595 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="100%"
+    viewBox="0 0 520 525"
+    preserveAspectRatio="xMinYMin meet"
+>
+
+<style>
+
+    .background {
+        fill: #0d1117;
+    }
+
+    .ascii-line {
+        font-family: "Courier New", monospace;
+        font-size: 10px;
+        fill: #39ff14;
+
+        opacity: 0;
+
+        animation: appear 0.15s forwards;
+    }
+
+    @keyframes appear {
+
+        from {
+            opacity: 0;
+            transform: translateY(3px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    }
+
+
+    .line-0 {
+        animation-delay: 0.000s;
+    }
+
+    .line-1 {
+        animation-delay: 0.035s;
+    }
+
+    .line-2 {
+        animation-delay: 0.070s;
+    }
+
+    .line-3 {
+        animation-delay: 0.105s;
+    }
+
+    .line-4 {
+        animation-delay: 0.140s;
+    }
+
+    .line-5 {
+        animation-delay: 0.175s;
+    }
+
+    .line-6 {
+        animation-delay: 0.210s;
+    }
+
+    .line-7 {
+        animation-delay: 0.245s;
+    }
+
+    .line-8 {
+        animation-delay: 0.280s;
+    }
+
+    .line-9 {
+        animation-delay: 0.315s;
+    }
+
+    .line-10 {
+        animation-delay: 0.350s;
+    }
+
+    .line-11 {
+        animation-delay: 0.385s;
+    }
+
+    .line-12 {
+        animation-delay: 0.420s;
+    }
+
+    .line-13 {
+        animation-delay: 0.455s;
+    }
+
+    .line-14 {
+        animation-delay: 0.490s;
+    }
+
+    .line-15 {
+        animation-delay: 0.525s;
+    }
+
+    .line-16 {
+        animation-delay: 0.560s;
+    }
+
+    .line-17 {
+        animation-delay: 0.595s;
+    }
+
+    .line-18 {
+        animation-delay: 0.630s;
+    }
+
+    .line-19 {
+        animation-delay: 0.665s;
+    }
+
+    .line-20 {
+        animation-delay: 0.700s;
+    }
+
+    .line-21 {
+        animation-delay: 0.735s;
+    }
+
+    .line-22 {
+        animation-delay: 0.770s;
+    }
+
+    .line-23 {
+        animation-delay: 0.805s;
+    }
+
+    .line-24 {
+        animation-delay: 0.840s;
+    }
+
+    .line-25 {
+        animation-delay: 0.875s;
+    }
+
+    .line-26 {
+        animation-delay: 0.910s;
+    }
+
+    .line-27 {
+        animation-delay: 0.945s;
+    }
+
+    .line-28 {
+        animation-delay: 0.980s;
+    }
+
+    .line-29 {
+        animation-delay: 1.015s;
+    }
+
+    .line-30 {
+        animation-delay: 1.050s;
+    }
+
+    .line-31 {
+        animation-delay: 1.085s;
+    }
+
+    .line-32 {
+        animation-delay: 1.120s;
+    }
+
+    .line-33 {
+        animation-delay: 1.155s;
+    }
+
+    .line-34 {
+        animation-delay: 1.190s;
+    }
+
+    .line-35 {
+        animation-delay: 1.225s;
+    }
+
+    .line-36 {
+        animation-delay: 1.260s;
+    }
+
+    .line-37 {
+        animation-delay: 1.295s;
+    }
+
+    .line-38 {
+        animation-delay: 1.330s;
+    }
+
+    .line-39 {
+        animation-delay: 1.365s;
+    }
+
+    .line-40 {
+        animation-delay: 1.400s;
+    }
+
+    .line-41 {
+        animation-delay: 1.435s;
+    }
+
+    .line-42 {
+        animation-delay: 1.470s;
+    }
+
+    .line-43 {
+        animation-delay: 1.505s;
+    }
+
+    .line-44 {
+        animation-delay: 1.540s;
+    }
+
+</style>
+
+
+<!-- Terminal-style background -->
+
+<rect
+    class="background"
+    width="100%"
+    height="100%"
+    rx="10"
+/>
+
+
+<!-- ASCII PORTRAIT -->
+
+
+    <text
+        x="10"
+        y="15"
+        class="ascii-line line-0"
+        xml:space="preserve"
+    ></text>
+
+
+    <text
+        x="10"
+        y="26"
+        class="ascii-line line-1"
+        xml:space="preserve"
+    ></text>
+
+
+    <text
+        x="10"
+        y="37"
+        class="ascii-line line-2"
+        xml:space="preserve"
+    ></text>
+
+
+    <text
+        x="10"
+        y="48"
+        class="ascii-line line-3"
+        xml:space="preserve"
+    ></text>
+
+
+    <text
+        x="10"
+        y="59"
+        class="ascii-line line-4"
+        xml:space="preserve"
+    >                              %%%%#%%@@@@@@@</text>
+
+
+    <text
+        x="10"
+        y="70"
+        class="ascii-line line-5"
+        xml:space="preserve"
+    >                           @%%%%###%%@@@@@@@@@@@</text>
+
+
+    <text
+        x="10"
+        y="81"
+        class="ascii-line line-6"
+        xml:space="preserve"
+    >                          @@@@@@%%@@@@%##%%@@@@@@</text>
+
+
+    <text
+        x="10"
+        y="92"
+        class="ascii-line line-7"
+        xml:space="preserve"
+    >                         @@@@@%#%%#=-::::==+#@@@@@@</text>
+
+
+    <text
+        x="10"
+        y="103"
+        class="ascii-line line-8"
+        xml:space="preserve"
+    >                        @@@@@@%%#=.   ...:-==#%%@@%@</text>
+
+
+    <text
+        x="10"
+        y="114"
+        class="ascii-line line-9"
+        xml:space="preserve"
+    >                        @@@@@@%*-.   ..:=+***#%@@@@@</text>
+
+
+    <text
+        x="10"
+        y="125"
+        class="ascii-line line-10"
+        xml:space="preserve"
+    >                        @@@@@@%#*+=-:=*#%%##%%%@@@@@</text>
+
+
+    <text
+        x="10"
+        y="136"
+        class="ascii-line line-11"
+        xml:space="preserve"
+    >                        @@@%%##*##**+=#**+***+*#@@@</text>
+
+
+    <text
+        x="10"
+        y="147"
+        class="ascii-line line-12"
+        xml:space="preserve"
+    >                        @@@%*==--::=: -+-::.:=+#@%%</text>
+
+
+    <text
+        x="10"
+        y="158"
+        class="ascii-line line-13"
+        xml:space="preserve"
+    >                         @%#+-:::===-=+***+==+*#%#%</text>
+
+
+    <text
+        x="10"
+        y="169"
+        class="ascii-line line-14"
+        xml:space="preserve"
+    >                          %++--+#*=+++*##**#==*#%#</text>
+
+
+    <text
+        x="10"
+        y="180"
+        class="ascii-line line-15"
+        xml:space="preserve"
+    >                           #---:+*#=::.:-+#+:=*#@</text>
+
+
+    <text
+        x="10"
+        y="191"
+        class="ascii-line line-16"
+        xml:space="preserve"
+    >                             *=-:::-----===-=*#%</text>
+
+
+    <text
+        x="10"
+        y="202"
+        class="ascii-line line-17"
+        xml:space="preserve"
+    >                               *=-:::::-::-=##%%</text>
+
+
+    <text
+        x="10"
+        y="213"
+        class="ascii-line line-18"
+        xml:space="preserve"
+    >                               *+++===--=+*#%%%#++</text>
+
+
+    <text
+        x="10"
+        y="224"
+        class="ascii-line line-19"
+        xml:space="preserve"
+    >                               *-=*******##%%%%#---=</text>
+
+
+    <text
+        x="10"
+        y="235"
+        class="ascii-line line-20"
+        xml:space="preserve"
+    >                            %%+..:-=++*###%%##%=:...*@%%</text>
+
+
+    <text
+        x="10"
+        y="246"
+        class="ascii-line line-21"
+        xml:space="preserve"
+    >                       ###%%%+. ::::-=+***####+.    =%%###%%%</text>
+
+
+    <text
+        x="10"
+        y="257"
+        class="ascii-line line-22"
+        xml:space="preserve"
+    >                   #######%#=.  :=:::-=++++**+.     -%############%%</text>
+
+
+    <text
+        x="10"
+        y="268"
+        class="ascii-line line-23"
+        xml:space="preserve"
+    >             #############+:     -::::--===+=.      .#################%%%%</text>
+
+
+    <text
+        x="10"
+        y="279"
+        class="ascii-line line-24"
+        xml:space="preserve"
+    >          %##############=::::-: .:...:....::=-::::--#####################%@</text>
+
+
+    <text
+        x="10"
+        y="290"
+        class="ascii-line line-25"
+        xml:space="preserve"
+    >         %###################%%#=:....... :=%@@%%%%%%%#%%################%@@@</text>
+
+
+    <text
+        x="10"
+        y="301"
+        class="ascii-line line-26"
+        xml:space="preserve"
+    >         #######################%#+-.... ..+%%%%######@%#####%##########%@@#%</text>
+
+
+    <text
+        x="10"
+        y="312"
+        class="ascii-line line-27"
+        xml:space="preserve"
+    >        ##########################:. ..:-::*%########@%####%%######%%%%%%@%#%</text>
+
+
+    <text
+        x="10"
+        y="323"
+        class="ascii-line line-28"
+        xml:space="preserve"
+    >        ##%%######################.  .... -#########%%###%%%######%%@%%%%%%%%</text>
+
+
+    <text
+        x="10"
+        y="334"
+        class="ascii-line line-29"
+        xml:space="preserve"
+    >       %#%%%######################-      .*########%%##%%%%%#####%%@@%@@@@@@%%</text>
+
+
+    <text
+        x="10"
+        y="345"
+        class="ascii-line line-30"
+        xml:space="preserve"
+    >       %#%%%%%####################*.     =########%###%%%%%######%@@%@@@%%%%@@@</text>
+
+
+    <text
+        x="10"
+        y="356"
+        class="ascii-line line-31"
+        xml:space="preserve"
+    >      %%%%%%%%%####################.    :########%%##%%%%%######%@@%@@@%%%%@@%%%</text>
+
+
+    <text
+        x="10"
+        y="367"
+        class="ascii-line line-32"
+        xml:space="preserve"
+    >      %%%%%%%%%%##################%-   .*#######%###%%%%%######%%@@%%%%%%%%%%%#+</text>
+
+
+    <text
+        x="10"
+        y="378"
+        class="ascii-line line-33"
+        xml:space="preserve"
+    >     %##%%%%%%%%%#################%*.  =#######%###%%%%%######%%@@@%%%#####%%@%:</text>
+
+
+    <text
+        x="10"
+        y="389"
+        class="ascii-line line-34"
+        xml:space="preserve"
+    >      #####%%%%%%%#######%%%%#######: :######%%###%%%%%#####%%%@@@%%%%##%%@@@@%#</text>
+
+
+    <text
+        x="10"
+        y="400"
+        class="ascii-line line-35"
+        xml:space="preserve"
+    >     %#%%%%%%%%@%%%%%###%%%%%%####%%= +#####%%###%%%%%%%%%%%%%@@@@%%%%%%@@@%%%%%</text>
+
+
+    <text
+        x="10"
+        y="411"
+        class="ascii-line line-36"
+        xml:space="preserve"
+    >     %%%%%%%%%@@@%%%%%##%%%%%%%%##%%*-#####@%####%%###%%%%%%%@@@@@%%%%%%%%%##%%@</text>
+
+
+    <text
+        x="10"
+        y="422"
+        class="ascii-line line-37"
+        xml:space="preserve"
+    >    ######%%%%@@@@@%%%%##%%%%%%%%#%%%####%@%%#########%%%%%%%%@@@@%%%%%%%%%%%%@@</text>
+
+
+    <text
+        x="10"
+        y="433"
+        class="ascii-line line-38"
+        xml:space="preserve"
+    >    ###%%@@@%@@@@@@%%%%%###%%%%%%%%%####@@%##########%%%@%%%%%@@@@%%%%%%%%%%%%%%</text>
+
+
+    <text
+        x="10"
+        y="444"
+        class="ascii-line line-39"
+        xml:space="preserve"
+    >    ##%%%%%@@@@@@@@%%#%%%%###%%%%%%%##%@@%#########%%%%##%%%%@@@@@%%%%%%%%%%%%%%</text>
+
+
+    <text
+        x="10"
+        y="455"
+        class="ascii-line line-40"
+        xml:space="preserve"
+    >   %%@@%%%%%%@@@@@@%%%@@%%%###%%%%%#%@@%%%########%%%%%##%%%@@@@@@%%%%#####%%%@@</text>
+
+
+    <text
+        x="10"
+        y="466"
+        class="ascii-line line-41"
+        xml:space="preserve"
+    >   @%%%%%%@@%%%@@@@%%%%%%@%%%##%%%%@@@%#########%%%%%%%%%%%%%@@@@@%%%%#%%%%%%%%#</text>
+
+
+    <text
+        x="10"
+        y="477"
+        class="ascii-line line-42"
+        xml:space="preserve"
+    >  %%%%%@@@@@@@@@@@@%%%%%%%%%%%%#%%@@%%#######%%%%%%%%%%%%%%%%@@@%@%%%%%%@@@@@@%%</text>
+
+
+    <text
+        x="10"
+        y="488"
+        class="ascii-line line-43"
+        xml:space="preserve"
+    >  @%%%%@@%@@@@@@@@%#%%%%%%%%%%%%%##%%%####**%%##%%%%%#%%%%%@@@@%%@@@@@@%%%%%%%%%</text>
+
+
+    <text
+        x="10"
+        y="499"
+        class="ascii-line line-44"
+        xml:space="preserve"
+    >  %#%%%%%%%%@@@@@%###%%%%#%%#####%#%%#######%####%####%%%%@@@@%%%@@@%%@@%%%%#%%%</text>
+
+
+</svg>
