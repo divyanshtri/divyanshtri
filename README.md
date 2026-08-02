@@ -1,11 +1,5 @@
 <div align="center">
 
-# Hi, I'm Divyansh 👋
-
-### Software Developer
-
-<br>
-
 <img src="./assets/profile-card.svg" width="100%" alt="Divyansh Mani Tripathi - Software Developer">
 
 <br>
